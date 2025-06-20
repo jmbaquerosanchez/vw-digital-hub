@@ -54,7 +54,7 @@ const Title = styled(TextField)`
 
 const Content = styled(TextAreaField)`
   width: 100%;
-  height: 90%;
+  height: 80%;
 `;
 
 interface Props {

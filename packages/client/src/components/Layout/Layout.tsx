@@ -8,7 +8,7 @@ import { Toast } from "../Toast/Toast";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 200px 1fr auto;
   grid-template-rows: auto 1fr;

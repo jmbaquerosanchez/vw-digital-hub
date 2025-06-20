@@ -4,13 +4,12 @@ import styled from "styled-components";
 const Container = styled.div`
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding: 20px 30px 120px 30px;
   display: flex;
   flex-direction: column;
   overflow: auto;
 
   margin: 0 auto;
-  padding: 2rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
 
@@ -149,9 +148,9 @@ export const Home: FC = () => {
         <code>client</code> (The client)
       </h3>
       <p>
-        This is the project for the client. So is the deployable component that
-        in this case use the design-system package. Inside the client we also
-        can find the following folders:
+        This is the project for the client. So it is the deployable component
+        that in this case use the design-system package. Inside the client we
+        also can find the following folders:
       </p>
       <h3>
         <code>api</code>
