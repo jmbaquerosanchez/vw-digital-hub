@@ -10,6 +10,7 @@
     "hardreset": "rimraf package-lock.json && lerna clean && rimraf node_modules",
     "format": "lerna run format",
     "clean": "lerna exec -- rimraf dist",
+    "build": "lerna run build --scope=@vw-digital-hub/client",
     "build:ds": "lerna run build --scope=@vw-digital-hub/design-system",
     "build:ds:storybook": "lerna run build:storybook --scope=@vw-digital-hub/design-system",
     "build:client": "lerna run build --scope=@vw-digital-hub/client",
