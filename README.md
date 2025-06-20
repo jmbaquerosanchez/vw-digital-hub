@@ -33,6 +33,36 @@ To get the project running on your local machine, follow these steps:
     ```
     _The client connects to the server using the `VITE_VW_API_URL` environment variable. By default, this is configured to point to `localhost:3004`, where your local server should be running._
 
+## Storybook
+
+To get the project running on your local machine, follow these steps:
+
+**Launch Storybook**
+`bash
+    npm run start:ds:storybook
+    `
+
+**Build the storybook**
+`bash
+    npm run build:ds:storybook
+    `
+
+---
+
+## Operationl Scripts
+
+To get the project running on your local machine, follow these steps:
+
+**Run tests**
+`bash
+    npm run test
+    `
+
+**Run linter**
+`bash
+    npm run lint
+    `
+
 ---
 
 ## Running the Deployed Application (Vercel)
@@ -101,15 +131,17 @@ This is a project created from scratch using **Vite**, to which I manually added
 
 ## 📁 Folder Structure
 
-### `ds` (Design System)
+### `design-system` (Design System)
 
-This folder acts as a mini design system for the app. It contains styled components, as well as color and typography tokens under the `config` folder. The configuration includes a global CSS reset.
+This project acts as a mini design system for the app. It contains styled components, as well as color and typography tokens under the `config` folder. The configuration includes a global CSS reset.
 
-Initially, I intended to move this folder into a separate package within a **monorepo** and publish it as an **npm library**. Although I didn't have time to do so, the folder has no dependencies on other parts of the app, making this change straightforward if needed.
+### `client` (The client)
+
+## `And inside the client...`
 
 ### `api`
 
-Contains everything related to communication with the backend API. Like the design system, it’s also structured to be easily moved to its own monorepo package if necessary.
+Contains everything related to communication with the backend API. Like the design system, it’s also structured to be easily moved to its own monorepo package if necessary. Initially, I intended to move this folder into a separate package within a **monorepo**. Although I didn't have time to do so, the folder has no dependencies on other parts of the app, making this change straightforward if needed.
 
 ### `components`
 
@@ -135,9 +167,9 @@ If I had more time, I would move these into their own library within the monorep
 
 ## ✅ Testing & CI
 
-Due to time limitations, I was only able to write unit tests for the most basic components in the design system folder. The environment was configured using **Vitest** and **React Testing Library**.
+Due to time limitations, I was only able to write unit tests for the most basic components in the design system project. The environment was configured using **Vitest** and **React Testing Library**.
 
-Although I aimed to showcase my own development skills, I did make limited use of **AI** (ChatGPT) to help generate some unit tests and to solve specific project configuration issues. All other code was written manually.
+Although I aimed to showcase my own development skills, I did make limited use of **AI** (ChatGPT) to help generate some unit tests and to solve specific project configuration issues. Also for this readme formatting. All other code was written manually.
 
 For **CI/CD**, I set up basic workflows using **GitHub Actions**:
 

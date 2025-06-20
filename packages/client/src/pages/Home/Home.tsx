@@ -73,7 +73,8 @@ export const Home: FC = () => {
         This is a project created from scratch using <strong>Vite</strong>, to
         which I manually added the dependencies as needed. The purpose was to
         build a solid and well-structured foundation that could eventually be
-        split into a monorepo.
+        split into a monorepo. Finally I was able to do this job but only for
+        the design system package and the client.
       </p>
 
       <h2>📦 Dependencies Used</h2>
@@ -137,19 +138,21 @@ export const Home: FC = () => {
         <code>ds</code> (Design System)
       </h3>
       <p>
-        This folder acts as a mini design system for the app. It contains styled
-        components, as well as color and typography tokens under the{" "}
-        <code>config</code> folder. The configuration includes a global CSS
-        reset.
-      </p>
-      <p>
-        Initially, I intended to move this folder into a separate package within
-        a <strong>monorepo</strong> and publish it as an{" "}
-        <strong>npm library</strong>. Although I didn't have time to do so, the
-        folder has no dependencies on other parts of the app, making this change
-        straightforward if needed.
+        This is one of the projects of the monorepo acts as a mini design system
+        for the app. It contains styled components, as well as color and
+        typography tokens under the <code>config</code> folder. The
+        configuration includes a global CSS reset. It is also configured for
+        using storybook
       </p>
 
+      <h3>
+        <code>client</code> (The client)
+      </h3>
+      <p>
+        This is the project for the client. So is the deployable component that
+        in this case use the design-system package. Inside the client we also
+        can find the following folders:
+      </p>
       <h3>
         <code>api</code>
       </h3>
