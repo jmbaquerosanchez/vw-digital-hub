@@ -176,7 +176,7 @@ For **CI/CD**, I set up basic workflows using **GitHub Actions**:
 - **Pull Requests**: Run linting and tests
 - **Pushes**: Run linting, tests, build the app, and deploy to **Vercel**
 
-🚀 **Live app**: [https://vw-digital-hub.vercel.app/](https://vw-digital-hub.vercel.app/)
+🚀 **Live app**: [https://vw-digital-hub-gilt.vercel.app/](https://vw-digital-hub-gilt.vercel.app/)
 
 ```
 
