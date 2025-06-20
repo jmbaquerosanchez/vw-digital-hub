@@ -235,8 +235,8 @@ export const Home: FC = () => {
 
       <p>
         🚀 <strong>Live app</strong>:{" "}
-        <a href="https://vw-digital-hub.vercel.app/" target="_blank">
-          https://vw-digital-hub.vercel.app/
+        <a href="https://vw-digital-hub-gilt.vercel.app/" target="_blank">
+          https://vw-digital-hub-gilt.vercel.app/
         </a>
       </p>
     </Container>

@@ -67,7 +67,7 @@ To get the project running on your local machine, follow these steps:
 
 ## Running the Deployed Application (Vercel)
 
-The application deployed on Vercel (`https://vw-digital-hub.vercel.app/`) also relies on a local server instance because it's configured to point to `localhost:3004`. To use the deployed version, you'll need to:
+The application deployed on Vercel (`https://vw-digital-hub-gilt.vercel.app/`) also relies on a local server instance because it's configured to point to `localhost:3004`. To use the deployed version, you'll need to:
 
 1.  **Launch the Server**
     Open a terminal window, navigate to the project's root, and start the server:
