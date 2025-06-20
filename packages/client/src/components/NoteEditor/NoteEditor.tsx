@@ -16,7 +16,7 @@ import { useToast } from "../Toast/Toast.hook";
 import { LayoutContext } from "../Layout/Layout.context";
 import type { Size } from "../../types/types";
 
-const Container = styled.div<{ $size: Size }>`
+const Container = styled.form<{ $size: Size }>`
   position: relative;
   width: 100%;
   height: 100%;
@@ -128,8 +128,20 @@ export const NoteEditor: FC<Props> = ({ note }) => {
     }
   };
 
+  const isButtonDisabled =
+    thereAreEmptyFields || isCreatePending || isUpdatePending;
+  const buttonCallback = note.id ? onUpdateSave : onCreateSave;
+
   return (
-    <Container $size={size}>
+    <Container
+      $size={size}
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (!isButtonDisabled) {
+          buttonCallback();
+        }
+      }}
+    >
       <TextFieldsContainer>
         <Title
           onChange={onTitleChange}
@@ -149,8 +161,8 @@ export const NoteEditor: FC<Props> = ({ note }) => {
         />
       </TextFieldsContainer>
       <SecondaryButton
-        onClick={note.id ? onUpdateSave : onCreateSave}
-        disabled={thereAreEmptyFields || isCreatePending || isUpdatePending}
+        onClick={buttonCallback}
+        disabled={isButtonDisabled}
         label="Save"
       />
       {(isCreatePending || isUpdatePending) && <StyledLoading />}
