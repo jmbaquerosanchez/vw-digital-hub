@@ -1,0 +1,29 @@
+{
+  "name": "vw-digital-hub-fe",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Juan Manuel Baquero <jmbaquerosanchez@gmail.com",
+  "scripts": {
+    "reset": "lerna clean && rimraf node_modules",
+    "hardreset": "rimraf package-lock.json && lerna clean && rimraf node_modules",
+    "format": "lerna run format",
+    "clean": "lerna exec -- rimraf dist",
+    "build:ds": "lerna run build --scope=@vw-digital-hub/design-system",
+    "build:ds:storybook": "lerna run build:storybook --scope=@vw-digital-hub/design-system",
+    "build:client": "lerna run build --scope=@vw-digital-hub/client",
+    "start:ds:storybook": "lerna run start:storybook --scope=@vw-digital-hub/design-system",
+    "start:client": "lerna run start --scope=@vw-digital-hub/client",
+    "start:server": "lerna run start:server --scope=@vw-digital-hub/client",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "test:ds": "lerna run test --scope=@vw-digital-hub/design-system",
+    "test:client": "lerna run test --scope=@vw-digital-hub/client"
+    
+  },
+  "devDependencies": {
+    "lerna": "^8.2.2",
+    "rimraf": "^6.0.1"
+  }
+}
