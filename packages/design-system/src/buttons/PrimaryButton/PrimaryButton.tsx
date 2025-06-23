@@ -1,7 +1,7 @@
 import { memo, type FC } from "react";
 import styled, { keyframes } from "styled-components";
-import type { HTMLButtonProps } from "../../types/react";
 import type { IconType } from "react-icons";
+import type { HTMLButtonProps } from "@vw-digital-hub/utils";
 
 const translation = keyframes`
 	0% {		

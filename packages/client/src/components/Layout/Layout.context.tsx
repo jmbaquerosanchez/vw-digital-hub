@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import type { Size } from "../../types/types";
+import type { Size } from "@vw-digital-hub/utils";
 
 export type LayoutContextType = {
   size: Size;

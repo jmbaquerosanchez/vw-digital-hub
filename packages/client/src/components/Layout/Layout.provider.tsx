@@ -1,6 +1,5 @@
 import { type FC, useMemo, useState, useEffect } from "react";
-import type { Size } from "../../types/types";
-import type { HOCProps } from "../../types/react";
+import type { Size, HOCProps } from "@vw-digital-hub/utils";
 import { THRESHOLD_LARGE } from "./Layout.constants";
 import { LayoutContext, type LayoutContextType } from "./Layout.context";
 

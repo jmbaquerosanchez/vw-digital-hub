@@ -1,9 +1,8 @@
 import { useMemo, useState, type FC } from "react";
 import { TOAST_TIME } from "./Toast.constants";
 import type { ToastVariant } from "./Toast.types";
-import type { HOCProps } from "../../types/react";
+import { type HOCProps, useTempState } from "@vw-digital-hub/utils";
 import { ToastContext, type ToastContextType } from "./Toast.context";
-import { useTempState } from "../../utils/hooks/useTempState";
 
 export const ToastProvider: FC<HOCProps> = ({ children }) => {
   const [variant, setVariant] = useState<ToastVariant>("good");

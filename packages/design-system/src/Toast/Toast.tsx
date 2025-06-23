@@ -2,8 +2,7 @@ import { memo, type FC } from "react";
 import styled from "styled-components";
 import { FaCheck } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
-import type { Size } from "../types/types";
-import type { HTMLDivProps } from "../types/react";
+import type { HTMLDivProps, Size } from "@vw-digital-hub/utils";
 
 type Variant = "good" | "bad";
 const DEFAULT_VARIANT: Variant = "good";

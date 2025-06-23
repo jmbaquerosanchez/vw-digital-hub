@@ -1,6 +1,6 @@
 import { useMemo, useState, type FC } from "react";
 import type { ModalDef, ModalProps } from "./Modal.types";
-import type { HOCProps } from "../../types/react";
+import type { HOCProps } from "@vw-digital-hub/utils";
 import { ModalContext, type ModalContextType } from "./Modal.context";
 
 export const ModalProvider: FC<HOCProps> = ({ children }) => {

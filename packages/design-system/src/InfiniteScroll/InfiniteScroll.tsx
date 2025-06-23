@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import type { FC, Ref } from "react";
-import type { HTMLDivProps } from "../types/react";
+import type { HTMLDivProps } from "@vw-digital-hub/utils";
 
 const Container = styled.div`
   display: flex;
