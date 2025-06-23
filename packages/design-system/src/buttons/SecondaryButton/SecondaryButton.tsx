@@ -1,7 +1,6 @@
 import { memo, type FC } from "react";
 import styled from "styled-components";
-import type { Size } from "../../types/types";
-import type { HTMLButtonProps } from "../../types/react";
+import type { HTMLButtonProps, Size } from "@vw-digital-hub/utils";
 import type { IconType } from "react-icons";
 
 const Container = styled.button`

@@ -14,7 +14,7 @@ import {
 } from "@vw-digital-hub/api";
 import { useToast } from "../Toast/Toast.hook";
 import { LayoutContext } from "../Layout/Layout.context";
-import type { Size } from "../../types/types";
+import type { Size } from "@vw-digital-hub/utils";
 
 const Container = styled.form<{ $size: Size }>`
   position: relative;

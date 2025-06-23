@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import type { HTMLInputProps } from "../types/react";
+import type { HTMLInputProps } from "@vw-digital-hub/utils";
 import { useId, type FC, type Ref } from "react";
 
 const Container = styled.div`

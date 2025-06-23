@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import type { UseStateSetter } from "../../types/react";
+import type { UseStateSetter } from "@vw-digital-hub/utils";
 
 export type SidebarContextType = {
   opened: boolean;

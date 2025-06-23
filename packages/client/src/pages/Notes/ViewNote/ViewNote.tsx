@@ -3,7 +3,7 @@ import { useContext, type FC } from "react";
 import { useNavigate, useParams } from "react-router";
 import styled from "styled-components";
 import { LayoutContext } from "../../../components/Layout/Layout.context";
-import type { Size } from "../../../types/types";
+import type { Size } from "@vw-digital-hub/utils";
 import { StyledLoading } from "@vw-digital-hub/design-system";
 import { noteByIdQuery } from "@vw-digital-hub/api";
 import { getHomeRoute } from "../../../Router/Router.utils";

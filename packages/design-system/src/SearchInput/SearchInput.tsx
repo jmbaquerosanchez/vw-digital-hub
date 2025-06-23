@@ -1,7 +1,7 @@
 import { GoSearch } from "react-icons/go";
 import styled from "styled-components";
 import type { FC, Ref } from "react";
-import type { HTMLInputProps } from "../types/react";
+import type { HTMLInputProps } from "@vw-digital-hub/utils";
 
 const Container = styled.div`
   display: flex;

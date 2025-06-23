@@ -1,5 +1,5 @@
 import type { FC, CSSProperties } from "react";
-import type { Size } from "../../types/types";
+import type { Size } from "@vw-digital-hub/utils";
 
 type ModalProperties =
   | "bottom"

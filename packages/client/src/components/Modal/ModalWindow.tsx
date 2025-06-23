@@ -4,7 +4,7 @@ import styled from "styled-components";
 import type { ModalStyle, ModalStyleProp, StyleProp } from "./Modal.types";
 import { useModal } from "./Modal.hook";
 import { LayoutContext } from "../Layout/Layout.context";
-import type { HTMLDivProps } from "../../types/react";
+import type { HTMLDivProps } from "@vw-digital-hub/utils";
 
 const Container = styled.div<{
   $transitioning: boolean;

@@ -1,6 +1,6 @@
 import { useId, type FC, type Ref } from "react";
 import styled from "styled-components";
-import type { HTMLTextareaProps } from "../types/react";
+import type { HTMLTextareaProps } from "@vw-digital-hub/utils";
 
 const Container = styled.div`
   width: 100%;

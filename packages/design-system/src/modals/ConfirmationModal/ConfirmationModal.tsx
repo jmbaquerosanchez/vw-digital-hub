@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import type { Size } from "../../types/types";
-import type { HTMLDivProps } from "../../types/react";
+import type { HTMLDivProps, Size } from "@vw-digital-hub/utils";
 import { memo, type FC } from "react";
 import { TertiaryButton } from "../../buttons/TertiaryButton/TertiaryButton";
 import { PrimaryButton } from "../../buttons/PrimaryButton/PrimaryButton";

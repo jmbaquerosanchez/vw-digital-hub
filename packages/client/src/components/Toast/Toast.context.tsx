@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import type { ToastVariant } from "./Toast.types";
-import type { UseStateSetter } from "../../types/react";
+import type { UseStateSetter } from "@vw-digital-hub/utils";
 
 export type ToastContextType = {
   variant: ToastVariant;

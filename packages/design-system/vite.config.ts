@@ -26,13 +26,20 @@ export default defineConfig({
       fileName: (format: string) => `index.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom", "styled-components", "react-router"],
+      external: [
+        "react",
+        "react-dom",
+        "styled-components",
+        "react-router",
+        "@vw-digital-hub/utils",
+      ],
       output: {
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
           "styled-components": "StyledComponents",
           "react-router": "ReactRouter",
+          "@vw-digital-hub/utils": "VWUtils",
         },
       },
     },

@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import styled from "styled-components";
-import type { HTMLSVGProps } from "../types/react";
+import type { HTMLSVGProps } from "@vw-digital-hub/utils";
 
 export const LOADING_SIZE = 80;
 
