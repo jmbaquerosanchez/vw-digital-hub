@@ -143,6 +143,13 @@ export const Home: FC = () => {
         configuration includes a global CSS reset. It is also configured for
         using storybook
       </p>
+      <h3>
+        <code>api</code>
+      </h3>
+      <p>
+        This is a package that contains everything related to communication with
+        the backend API.
+      </p>
 
       <h3>
         <code>client</code> (The client)
@@ -151,14 +158,6 @@ export const Home: FC = () => {
         This is the project for the client. So it is the deployable component
         that in this case use the design-system package. Inside the client we
         also can find the following folders:
-      </p>
-      <h3>
-        <code>api</code>
-      </h3>
-      <p>
-        Contains everything related to communication with the backend API. Like
-        the design system, it’s also structured to be easily moved to its own
-        monorepo package if necessary.
       </p>
 
       <h3>

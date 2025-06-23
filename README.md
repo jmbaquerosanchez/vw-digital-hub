@@ -120,11 +120,11 @@ This project acts as a mini design system for the app. It contains styled compon
 
 This is the project for the client. So it is the deployable component that in this case use the design-system package. Inside the client we also can find the following folders:
 
-## `And inside the client...`
-
 ### `api`
 
-Contains everything related to communication with the backend API. Like the design system, it’s also structured to be easily moved to its own monorepo package if necessary. I didn't have time to do so, the folder has no dependencies on other parts of the app so making this change it will be very straightforward if needed.
+Contains everything related to communication with the backend API.
+
+## `And inside the client...`
 
 ### `components`
 

@@ -1,11 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 import { useContext, type FC } from "react";
 import { useNavigate, useParams } from "react-router";
-import { noteByIdQuery } from "../../../api/querys/notes";
 import styled from "styled-components";
 import { LayoutContext } from "../../../components/Layout/Layout.context";
 import type { Size } from "../../../types/types";
 import { StyledLoading } from "@vw-digital-hub/design-system";
+import { noteByIdQuery } from "@vw-digital-hub/api";
 import { getHomeRoute } from "../../../Router/Router.utils";
 
 const Container = styled.div<{ $size: Size }>`

@@ -1,5 +1,5 @@
-import { initAPI } from "../api/utils";
+import { init } from "@vw-digital-hub/api";
 
-initAPI({
+init({
   baseUrl: import.meta.env.VITE_VW_API_URL,
 });
