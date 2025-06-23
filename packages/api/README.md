@@ -1,4 +1,4 @@
-# VW Digital Hub Design System
+# VW Digital Hub API
 
 ## Scripts
 
@@ -20,13 +20,7 @@
     npm run start
     ```
 
-4.  **run Storybook**
-
-    ```bash
-    npm run start:storybook
-    ```
-
-5.  **Build**
+4.  **Build**
     ```bash
     npm run build
     ```
