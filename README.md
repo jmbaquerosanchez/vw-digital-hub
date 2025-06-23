@@ -38,6 +38,7 @@ To get the project running on your local machine, follow these steps (Everything
 For launching and building the storybook app:
 
 1.  **Launch Storybook**
+
     ```bash
     npm run start:ds:storybook
     ```
@@ -51,16 +52,16 @@ For launching and building the storybook app:
 
 ## Operationl Scripts
 
-
 1. **Run tests**
-    ```bash
-    npm run test
-    ```
+
+   ```bash
+   npm run test
+   ```
 
 2. **Run linter**
-    ```bash
-    npm run lint
-    ```
+   ```bash
+   npm run lint
+   ```
 
 ---
 
@@ -77,7 +78,6 @@ The application deployed on Vercel ([https://vw-digital-hub-gilt.vercel.app/](ht
 2.  **Open the Deployed Application**
     Once your local server is running, open your web browser and go to:
     [https://vw-digital-hub-gilt.vercel.app/](https://vw-digital-hub-gilt.vercel.app/)
-
 
 # Project explanations
 
@@ -117,6 +117,7 @@ This is a project created from scratch using **Vite**, to which I manually added
 This project acts as a mini design system for the app. It contains styled components, as well as color and typography tokens under the `config` folder. The configuration includes a global CSS reset.
 
 ### `client` (The client)
+
 This is the project for the client. So it is the deployable component that in this case use the design-system package. Inside the client we also can find the following folders:
 
 ## `And inside the client...`
@@ -156,7 +157,7 @@ Although I aimed to showcase my own development skills, I did make limited use o
 For **CI/CD**, I set up basic workflows using **GitHub Actions**:
 
 - **Pull Requests**: Run linting and tests
-- **Pushes**: Run linting, tests, build the app, and deploy to **Vercel**
+- **Pushes**: Run linting, tests, build the app, and deploy to prod in **Vercel**
 
 🚀 **Live app**: [https://vw-digital-hub-gilt.vercel.app/](https://vw-digital-hub-gilt.vercel.app/)
 
