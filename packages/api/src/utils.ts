@@ -1,12 +1,4 @@
-export const VW_API_INIT_VALUES: {
-  baseUrl: string;
-} = {
-  baseUrl: "",
-};
-
-export type VWAPIInitOptions = {
-  baseUrl: string;
-};
+import { VW_API_INIT_VALUES } from "./init";
 
 export interface PaginationOptions {
   pageNo: number;
@@ -105,9 +97,4 @@ export const fetchData = async ({
     const json = await response.json();
     return json;
   }
-};
-
-export const initAPI = (params: VWAPIInitOptions) => {
-  const { baseUrl } = params;
-  VW_API_INIT_VALUES.baseUrl = baseUrl;
 };

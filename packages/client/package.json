@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@vw-digital-hub/design-system": "*",
+    "@vw-digital-hub/api": "*",
     "@tanstack/react-query": "^5.80.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

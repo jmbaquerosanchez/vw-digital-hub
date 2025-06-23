@@ -15,7 +15,6 @@
     }
   },
   "scripts": {
-    "start": "vite --port 3003 --open --host",
     "start:storybook": "storybook dev -p 6006",
     "build": "npm run build:code && npm run build:types",
     "build:code": "tsc -b && vite build",

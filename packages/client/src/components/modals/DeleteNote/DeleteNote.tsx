@@ -1,7 +1,7 @@
 import { useContext, type FC } from "react";
 import { useDeleteNote } from "./DeleteNote.hooks";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { deleteNoteMutation } from "../../../api/mutations/notes";
+import { deleteNoteMutation } from "@vw-digital-hub/api";
 import { ConfirmationModal } from "@vw-digital-hub/design-system";
 import type { ModalProps } from "../../Modal/Modal.types";
 import { LayoutContext } from "../../Layout/Layout.context";

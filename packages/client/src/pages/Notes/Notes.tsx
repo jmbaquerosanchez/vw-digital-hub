@@ -1,7 +1,7 @@
 import { useEffect, useRef, type ChangeEvent, type FC } from "react";
 import styled from "styled-components";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { notesQueryPaged } from "../../api/querys/notes";
+import { notesQueryPaged } from "@vw-digital-hub/api";
 import { NoteCard } from "../../components/NoteCard/NoteCard";
 import { useDeleteNote } from "../../components/modals/DeleteNote/DeleteNote.hooks";
 import { useNavigate, useSearchParams } from "react-router";

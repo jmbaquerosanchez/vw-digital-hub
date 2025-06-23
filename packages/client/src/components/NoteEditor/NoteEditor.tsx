@@ -7,11 +7,11 @@ import {
   TextAreaField,
   StyledLoading,
 } from "@vw-digital-hub/design-system";
-import type { Note } from "../../api/primitives/notes";
 import {
+  type Note,
   createNoteMutation,
   updateNoteMutation,
-} from "../../api/mutations/notes";
+} from "@vw-digital-hub/api";
 import { useToast } from "../Toast/Toast.hook";
 import { LayoutContext } from "../Layout/Layout.context";
 import type { Size } from "../../types/types";
