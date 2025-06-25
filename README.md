@@ -8,7 +8,7 @@ This guide will walk you through setting up and running the project locally, as 
 
 ## Local Development Setup
 
-To get the project running on your local machine, follow these steps (Everything from the monorepo root directory):
+To get the project running on your local machine, follow the following steps (Everything from the monorepo root directory):
 
 1.  **Install Dependencies:**
 
